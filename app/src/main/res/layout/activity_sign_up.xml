@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearLyt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    tools:context=".LoginActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImageView2"
+        android:layout_marginTop="@dimen/image_magin_top"
+        android:layout_width="@dimen/image_width_height"
+        android:layout_height="@dimen/image_width_height"
+        android:src="@drawable/cake" />
+
+    <EditText
+        android:id="@+id/email_edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:background="@drawable/input_background"
+        android:hint="@string/email_address_hint"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/edittext_padding"
+        android:textColorHint="@android:color/darker_gray"
+        />
+
+    <EditText
+        android:id="@+id/password_edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:background="@drawable/input_background"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:padding="@dimen/edittext_padding"
+        android:textColorHint="@android:color/darker_gray"
+        />
+
+    <Button
+        android:id="@+id/signIn2"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:layout_height="@dimen/activity_button_height"
+        android:background="@drawable/button_color"
+        android:text="Sign In"
+        android:textColor="@android:color/white"
+        />
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:id="@+id/goooglesignIn"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/signUp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_signup_margin"
+        android:layout_marginBottom="8dp"
+        android:text="Dont have an account? sign Up."
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>

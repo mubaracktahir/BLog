@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BLog</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password_hint">Password …</string>
+    <string name="email_address_hint">Email address …</string>
+</resources>

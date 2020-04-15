@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context=".PostActivity">
+    
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/input_background"
+        android:id="@+id/selected_image"
+        android:scaleType="centerCrop"
+        />
+
+
+    <EditText
+        android:id="@+id/title_edit"
+        android:hint="Title"
+        android:background="@drawable/input_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_margin="10dp"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/desc_edit"
+        android:hint="Description"
+        android:textColorHint="@android:color/darker_gray"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/input_background"
+
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:id="@+id/uploadButton"
+        android:background="@drawable/button_color"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
